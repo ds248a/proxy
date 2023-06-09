@@ -1,9 +1,10 @@
-*~
+# Binaries for programs and plugins
 *.sublime*
- 
-/BUILD
-/giter
+
+# продукт компиляции
 /server/proxy
 
+# каталоги
 .git/
+tmp/
 vendor/
