@@ -1,9 +1,9 @@
-# конфиги
 *~
 *.sublime*
-# файлы
-BUILD
-giter
-# каталоги
+ 
+/BUILD
+/giter
+/server/proxy
+
 .git/
 vendor/
