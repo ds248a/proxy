@@ -2,7 +2,7 @@
 *.sublime*
 
 # продукт компиляции
-/server/proxy
+/bin
 
 # каталоги
 .git/
