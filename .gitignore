@@ -1,6 +1,9 @@
-# Binaries for programs and plugins
+# конфиги
 *~
 *.sublime*
+# файлы
+BUILD
 giter
+# каталоги
 .git/
 vendor/
