@@ -8,7 +8,7 @@ StartLimitIntervalSec=10
 Type=simple
 User=[USER_NAME]
 Group=[USEP_GROUP]
-ExecStart=/usr/local/bin/socks5
+ExecStart=/usr/local/bin/proxy
 Restart=always
 
 [Install]

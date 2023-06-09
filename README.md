@@ -13,3 +13,16 @@ type params struct {
 	AllowedDestFqdn string
 }
 ```
+
+## Установка на сервер
+1. для компиляции выполнить скрипт `build`
+2. на сервер в директорию `/etc/systemd/system` добавить файл `proxy.service`
+в файле заменить 
+[USER_NAME] и [USEP_GROUP] на реквизиты не привилегированного пользователя
+3. исполняемый файл разместить в директории `/usr/local/bin`
+4. выполнить
+```go
+systemctl enable proxy
+systemctl start proxy
+systemctl status proxy
+```
