@@ -17,10 +17,10 @@ type params struct {
 
 func main() {
 	cfg := params{
-		User:     "jU6gB9b62uLp5wQ",
-		Password: "lI8gF5f7f4NUjQt",
-		Addr:     "91.240.86.74",
-		Port:     "4410",
+		User:     "",
+		Password: "",
+		Addr:     "127.0.0.1",
+		Port:     "1018",
 	}
 
 	s5 := &socks5.Config{
