@@ -1,6 +1,5 @@
 #!/bin/bash -
 
-echo "Компиляция сервера"
+# компияляция сервера
 CGO_ENABLED=0 go build -C ./server -o proxy
-
 mv ./server/proxy ./bin

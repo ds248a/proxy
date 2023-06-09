@@ -17,8 +17,8 @@ type params struct {
 
 func main() {
 	cfg := params{
-		User:     "",
-		Password: "",
+		User:     "user",
+		Password: "password",
 		Addr:     "127.0.0.1",
 		Port:     "1018",
 	}
