@@ -1,0 +1,15 @@
+[Unit]
+Description=socks5 - proxy server
+After=network.target
+StartLimitBurst=5
+StartLimitIntervalSec=10
+
+[Service]
+Type=simple
+User=[USER_NAME]
+Group=[USEP_GROUP]
+ExecStart=/usr/local/bin/socks5
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
